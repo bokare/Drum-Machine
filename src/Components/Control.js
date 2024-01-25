@@ -1,7 +1,6 @@
 import React, { useState,useEffect } from "react";
 import "../App.css";
 
-
 const Control = ({ displayText, toggleBank, togglePower,audioVolume }) => {
   const [poweron, setpoweron] = useState(true);
   const [bank, setbank] = useState(true);

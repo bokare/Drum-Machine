@@ -139,7 +139,6 @@ const DrumMachine = () => {
   const togglePower = () => {
     setPower(!power);
     console.log(power)
-    
   };
 
   const toggleBank = () => {
